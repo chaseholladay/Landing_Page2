@@ -17,12 +17,14 @@
   <script async type="text/javascript" src="../js/bulma.js"></script>
   <!-- <link rel="stylesheet" type="text/css" href="css/rollover.css"> -->
   <!-- link for the html icon for each portfolio card -->
-  <link rel="stylesheet" type="text/css" href="css/icon.css">
+  <!-- <link rel="stylesheet" type="text/css" href="css/icon.css"> -->
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   <!-- this one is for the paper letter effect in the header -->
   <link rel="stylesheet" type="text/css" href="css/paperletters.css">
-
-  
+  <!-- this is for portfoliocards -->
+  <link rel="stylesheet" type="text/css" href="css/portfoliocards.css">
+  <script src="index.js"></script>
+  <link href="https://icongr.am/devicon/{icon}.svg?size={number}&color={hex}">
 </head>
 
 <body>
@@ -62,12 +64,12 @@
           </span>
           <span>Portfolio</span>
         </a>
-        <!-- <a class="navbar-item" href="#contact">
+        <a class="navbar-item" href="#contact">
           <span class="icon">
             <i class="fas fa-envelope"></i>
           </span>
           <span>Contact</span>
-        </a> -->
+        </a>
       </div>
     </div>
   </nav>
@@ -115,11 +117,10 @@
         <h2 class="subtitle is-3">
           Full Stack Web Developer
         </h2>
-        
-
-    </div>
+      </div>
+      
   </section>
-
+  
   <!-- About -->
   <section class="section" id="about">
     <!-- Title -->
@@ -174,6 +175,20 @@
               <a href="https://codetrace.com/users/chaseholladay" class="button is-link">CodeTrace</a>
               <a href="html-resume/resume.html" class="button is-link">Resume</a>
             </div>
+            <div class="col l3 right-align">
+              <h4 class="header">Education</h4>
+              <h5>University of Minnesota</h5>
+              <p>2018 - St. Paul, MN</p>
+              <p>Coding Bootcamp, Full-Stack Web Development</p>
+              <br>
+              <h5>Louisiana Tech University</h5>
+              <p>2008 Ruston, LA</p>
+              <p>MS, Science Education</p>
+              <br>
+              <h5>LSU</h5>
+              <p>2002 - Baton Rouge, LA</p>
+              <p>BS Fisheries and Aquaculture</p>
+          </div>
           </div>
         </div>
       </div>
@@ -183,8 +198,25 @@
           <div class="card-image">
             <figure class="image is-5by5">
               <img src="images/Chase 2 5x5.jpg" alt="Headshot of Chase Holladay">
-              <!-- <img src="https://source.unsplash.com/random/1280x960" alt="Placeholder image"> -->
+              <img src="images/img for portfolio/guidelines-improve-usability-accessibility.jpg" alt="Placeholder image">
             </figure>
+            <i class="skills devicon-html5-plain-wordmark"></i>
+            <i class="skills devicon-css3-plain-wordmark"></i>
+            <i class="skills devicon-bootstrap-plain-wordmark"></i>
+            <i class="skills devicon-javascript-plain"></i>
+            <i class="skills devicon-jquery-plain-wordmark"></i>
+            <i class="skills devicon-react-original-wordmark"></i>
+            <i class="skills devicon-python-plain-wordmark"></i>
+            <i class="skills devicon-nodejs-plain-wordmark"></i>
+            <i class="skills devicon-express-original-wordmark"></i>
+            <i class="skills devicon-mysql-plain-wordmark"></i>
+            <i class="skills devicon-sequelize-plain-wordmark"></i>
+            <i class="skills devicon-mongodb-plain-wordmark"></i>
+            <i class="skills devicon-angularjs-original-wordmark"></i>
+            <i class="skills devicon-java-plain-wordmark"></i>
+            <i class="skills devicon-git-plain-wordmark"></i>
+            <i class="skills devicon-github-plain-wordmark"></i>
+            <i class="skills devicon-vue-plain-wordmark"></i>
           </div>
         </div>
       </div>
@@ -206,7 +238,17 @@
                   </div>
                 </div>
               </article>
-
+              <article class="media">
+                <div class="media-content">
+                  <div class="content">
+                    <p>
+                      <strong>QA, Web Accessibility:</strong>
+                      <br>
+                      <progress class="progress is-primary" value="75" max="100"></progress>
+                    </p>
+                  </div>
+                </div>
+              </article>
               <article class="media">
                 <div class="media-content">
                   <div class="content">
@@ -260,20 +302,9 @@
       </div>
     </div>
   </section>
+  
+   <!-- Services -->
 
-  <!-- Skills tags -->
-   <!-- <br> -->
-        <!-- <div class="tags custom-tags"> -->
-          <!-- <span class="tag is-light">Node.js</span><span class="tag is-light">Express.js</span><span class="tag is-light">VueJS</span><span -->
-            <!-- class="tag is-light">JavaScript</span><span class="tag is-light">HTML5</span><span class="tag is-light">Canvas</span><span -->
-            <!-- class="tag is-light">CSS3</span><span class="tag is-light">Bulma</span><span class="tag is-light">Bootstrap</span><span -->
-            <!-- class="tag is-light">jQuery</span><span class="tag is-light">Pug</span><span class="tag is-light">Stylus</span><span -->
-            <!-- class="tag is-light">SASS/SCSS</span><span class="tag is-light">Webpack</span><span class="tag is-light">Git</span><span -->
-            <!-- class="tag is-light">ASP.NET Web Forms</span><span class="tag is-light">MSSQL</span><span class="tag is-light">MongoDB</span><span -->
-            <!-- class="tag is-light">Apache Cordova</span><span class="tag is-light">Chrome Extensions</span> -->
-        <!-- </div> -->
-
-  <!-- Services -->
   <section class="section" id="services">
     <div class="section-heading">
       <h3 class="title is-2">Services</h3>
@@ -286,7 +317,7 @@
             <div class="content">
               <h4 class="title is-5">Front End Web Development</h4>
               Develop Front End using latest standards with HTML5/CSS3 with added functionality using JavaScript and
-              React.js/Vue.js.
+              React.js/Vue.js, coding for Web Accessibility, using API, and QA. I thrive in agile environments.
             </div>
           </div>
         </div>
@@ -338,116 +369,531 @@
   </section> -->
 
   <!-- Portfolio -->
-  <section class="section" id="portfolio">
-    <div class="container">
+  <div class="container" id="portfolio">
       <div class="section-heading">
         <h3 class="title is-2">Portfolio</h3>
         <h4 class="subtitle is-5">My latest works</h4>
       </div>
-      <br>
+  <div class="section white z-depth-4">
+      <div class="container">
+          <div class="portfolioRow row d-flex">
 
-      <div class="container portfolio-container">
-        <div class="columns">
-          <div class="column is-12">
-            <!-- admin -->
-            
-            <div class="card">
-              <header class="card-header">
-                <p class="card-header-title">
-                  <span style="font-size: 2.0em">Fish-n-Clicks</span>
-                  <span class="tag is-default">A clicky game using React.js and some React surge transitions that fade-in</span>
-                  <span class="cardicon">
-                      <a href="https://github.com/chaseholladay/Fish-n-Clicks" i class="fab fa-github"></i></a>
-                      <a href="https://hungry-wilderness.surge.sh/" i class="fas fa-link"></i></a>
-                  </span> 
-                </p>
-              </header>
-              <figure class="image">
-                  <img src="images/img for portfolio/fishnclicks1.png" alt="Screenshot of Fish-n-Clicks game">
-              </figure>
+              <div class="col s12 m12 l4 d-flex">
+                  <div class="card">
+                      <div class="card-image">
+                          <img class="activator" src="">
+                          <a href="" target="_blank" class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">Deploy it!</i></a>
+                      </div>
+                      <div class="card-content">
+                          <span class="card-title">Pacabellies Treat Shop</span>
+                          <p>kdsfjksdjflkjflsdfjk</p>
+                      </div> 
+                      <div class="cardLink">
+                          <hr class="line">
+                          <a href="" target="_blank"><p class="orange-text lighten-2">SEE THE CODE!</p></a>
+                      </div>
+                      <div class="card-reveal">
+                          <span class="card-title grey-text text-darken-4">Technologies Used:<i class="material-icons right">close</i></span>
+                          <p>Group Project, HTML, JavaScript, React.js, Materialize, Node.js, Express.js, MongoDB, Passport.js for user authentication, Tone.js, NexusUI, MVC.</p>
+                      </div>
+                  </div>
               </div>
-            </div>
+
+              <div class="col s12 m12 l4 d-flex">
+                  <div class="card">
+                      <div class="card-image">
+                          <img class="activator" src="images/img for portfolio/fishnclicks1.png">
+                          <a href="https://hungry-wilderness.surge.sh/" target="_blank" class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">Deploy it!</i></a>
+                      </div>
+                      <div class="card-content">
+                          <span class="card-title">Fish n Clicks</span>
+                          <p>A clicky game where you can't select the same image more than once.</p>
+                      </div> 
+                      <div class="cardLink">
+                          <hr class="line">
+                          <a href="https://github.com/chaseholladay/Fish-n-Clicks" target="_blank"><p class="orange-text lighten-2">SEE THE CODE!</p></a>
+                      </div>
+                      <div class="card-reveal">
+                          <span class="card-title grey-text text-darken-4">Technologies Used:<i class="material-icons right">close</i></span>
+                          <p>HTML, CSS, Materialize, React w/ JavaScript</p>
+                      </div>
+                  </div>
               </div>
-            </div>
-                
-            <div class="column is-12">
-            <!-- Settle It! -->
-            <div class="card">
-              <header class="card-header">
-                <p class="card-header-title">
-                  <span style="font-size: 2.0em">Settle It!</span>
-                  <span class="tag is-default">Passport, MySQL, Handlebars, Javascript, CSS, HTML</span>
-                  <span class="cardicon">
-                    <a href="https://github.com/chaseholladay/Settle-It" i class="fab fa-github"></i></a>
-                    <a href="https://settle-it.herokuapp.com/" i class="fas fa-link"></i></a>
-                  </span>
-                </p>
-              </header>
-              <div class="card-content">
-                <figure class="image">
-                  <img src="images/img for portfolio/settleit.png" alt="Settle-It! web screenshot">
-                </figure>
+
+              <div class="col s12 m12 l4 d-flex">
+                  <div class="card">
+                      <div class="card-image">
+                          <img class="activator" src="images/img for portfolio/gitouttatown.png">
+                          <a href="https://coding-bootcamp-project-1.herokuapp.com/index.html" target="_blank" class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">Deplot it!</i></a>
+                      </div>
+                      <div class="card-content">
+                          <span class="card-title">Gitouttatown</span>
+                          <p>Search for something to do</p>
+                      </div> 
+                      <div class="cardLink">
+                          <hr class="line">
+                          <a href="https://github.com/chaseholladay/git-outta-town" target="_blank"><p class="orange-text lighten-2">SEE THE CODE!</p></a>
+                      </div>
+                      <div class="card-reveal">
+                          <span class="card-title grey-text text-darken-4">Technologies Used:<i class="material-icons right">close</i></span>
+                          <p>HTML, CSS, Materialize, React w/ JavaScript, API requests, Axios, Node.js, Express.js, MongoDB, Mongoose, MVC Design Pattern</p>
+                      </div>
+                  </div>
               </div>
-               <footer class="card-footer">
-                <p>Settle It! is a web application where you post an issue and describe why you support or do not support your issue. Then you invite a user of the app to respond or vote on your issue. Other users can vote for one side that they support.</p>
-               </footer>
-            </div>
-            </div>
-          <div class="column is-12">
-            <!-- Git-Ouuta-Town -->
-            <div class="card">
-              <header class="card-header">
-                <p class="card-header-title">
-                  <span style="font-size: 2.0em">Git-Outta-Town</span>
-                  <span class="tag is-default">HTML, Materialize CSS, JQuery, Moment.js, API, and Font Awesome because it is awesome </span>
-                  <span class="cardicon">
-                    <a href="https://github.com/chaseholladay/git-outta-town" i class="fab fa-github"></i></a>
-                    <a href="https://coding-bootcamp-project-1.herokuapp.com/index.html" i class="fas fa-link"></i></a>
-                  </span>
-                </p>
-              </header>
-              <div class="card-content">
-                <figure class="image">
-                  <img src="images/img for portfolio/gitouttatown.png" alt="Git-Outta-Town screenshot">
-                </figure>
-              </div>
-              <footer class="card-footer">
-                  <p>A travel app where the user searches a city, state, and date range. Various pieces of information about the city are returned, as well as a dynamically created table of events occurring that city during that date range. </p>
-              </footer>
-            </div>
-            </div>
-          
-            </div>
+
           </div>
-        </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
+          <div class="portfolioRow row d-flex"> 
+
+              <div class="col s12 m12 l4 d-flex">
+                  <div class="card">
+                      <div class="card-image">
+                          <img class="activator" src="">
+                          <a href="" target="_blank" class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">Deploy it!</i></a>
+                      </div>
+                      <div class="card-content">
+                          <span class="card-title">Cajun Trivia Game</span>
+                          <p>jhjhjhv</p>
+                      </div> 
+                      <div class="cardLink">
+                          <hr class="line">
+                          <a href="" target="_blank"><p class="orange-text lighten-2">SEE THE CODE!</p></a>
+                      </div>
+                      <div class="card-reveal">
+                          <span class="card-title grey-text text-darken-4">Technologies Used:<i class="material-icons right">close</i></span>
+                          <p>HTML, CSS, Materialize, React w/ JavaScript</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col s12 m12 l4 d-flex">
+                  <div class="card">
+                      <div class="card-image">
+                          <img class="activator" src="">
+                          <a href="" target="_blank" class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">Deploy it!</i></a>
+                      </div>
+                      <div class="card-content">
+                          <span class="card-title">Pets To Vet</span>
+                          
+                          <p>kdfkdfjldf</p>
+                      </div>
+                      <div class="cardLink">
+                          <hr class="line">
+                          <a href="" target="_blank"><p class="orange-text lighten-2">SEE THE CODE!</p></a>
+                      </div>
+                      <div class="card-reveal">
+                          <span class="card-title grey-text text-darken-4">Technologies Used:<i class="material-icons right">close</i></span>
+                          <p>Group Project, HTML, CSS, Materialize, JavaScript, jQuery, Node.js, Express.js, Passport.js, MySQL, Sequelize, Handlebars</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col s12 m12 l4 d-flex">
+                  <div class="card">
+                      <div class="card-image">
+                          <img class="activator" src="">
+                          <a href="" target="_blank" class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">Deploy it!</i></a>
+                      </div>
+                      <div class="card-content">
+                          <span class="card-title">Friend Finder</span>
+                          
+                          <p>kdfkdfjldf</p>
+                      </div>
+                      <div class="cardLink">
+                          <hr class="line">
+                          <a href="" target="_blank"><p class="orange-text lighten-2">SEE THE CODE!</p></a>
+                      </div>
+                      <div class="card-reveal">
+                          <span class="card-title grey-text text-darken-4">Technologies Used:<i class="material-icons right">close</i></span>
+                          <p>Group Project, HTML, CSS, Materialize, JavaScript, jQuery, Node.js, Express.js, Passport.js, MySQL, Sequelize, Handlebars</p>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col s12 m12 l4 d-flex">
+                  <div class="card">
+                      <div class="card-image">
+                          <img class="activator" src="">
+                          <a href="" target="_blank" class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">Deploy it!</i></a>
+                      </div>
+                      <div class="card-content">
+                          <span class="card-title">Hamburger App</span>
+                          <p>News stories are pulled from a database and rendered on the page. Visitors of the site can view the articles, as well as leave and delete comments. Comments are saved to the database for each article so others can view them.</p>
+                      </div> 
+                      <div class="cardLink">
+                          <hr class="line">
+                          <a href="" target="_blank"><p class="orange-text lighten-2">SEE THE CODE!</p></a>
+                      </div>
+                      <div class="card-reveal">
+                          <span class="card-title grey-text text-darken-4">Technologies Used:<i class="material-icons right">close</i></span>
+                          <p>HTML, CSS, Materialize, JavaScript, jQuery, Node.js, Express.js, MongoDB, Mongoose, Web Scraping, Handlebars</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <div class="portfolioRow row d-flex"> 
+
+              <div class="col s12 m12 l4 d-flex">
+                  <div class="card">
+                      <div class="card-image">
+                          <img class="activator" src="">
+                          <a href="" target="_blank" class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">Deploy it!</i></a>
+                      </div>
+                      <div class="card-content">
+                          <span class="card-title">Meal Prep</span>
+                          <p></p>
+                      </div>
+                      <div class="cardLink">
+                          <hr class="line">
+                          <a href="https://github.com/chaseholladay/Meal_Prep" target="_blank"><p class="orange-text lighten-2">SEE THE CODE!</p></a>
+                      </div>
+                      <div class="card-reveal">
+                          <span class="card-title grey-text text-darken-4">Technologies Used:<i class="material-icons right">close</i></span>
+                          <p>HTML, CSS, Materialize, JavaScript, jQuery, Node.js, Express.js, MySQL, Sequelize, Handlebars</p>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col s12 m12 l4 d-flex">
+                  <div class="card">
+                      <div class="card-image">
+                          <img class="activator" src="">
+                          <a href="" target="_blank" class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">Deploy it!</i></a>
+                      </div>
+                      <div class="card-content">
+                          <span class="card-title">Friend Finder</span>
+                          <p>Friend Finder is a compatibility-based application. Complete a simple survey, when you submit your answers they will be compared with other "users'" surveys and you will be shown your best match.</p>
+                      </div>
+                      <div class="cardLink">
+                          <hr class="line">
+                          <a href="" target="_blank"><p class="orange-text lighten-2">SEE THE CODE!</p></a>
+                      </div>
+                      <div class="card-reveal">
+                          <span class="card-title grey-text text-darken-4">Technologies Used:<i class="material-icons right">close</i></span>
+                          <p>HTML, CSS, Materialize, JavaScript, jQuery, Node.js, Express.js</p>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col s12 m12 l4 d-flex">
+                  <div class="card">
+                      <div class="card-image">
+                          <img class="activator" src="">
+                          <a href="" target="_blank" class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">Deploy it!</i></a>
+                      </div>
+                      <div class="card-content">
+                          <span class="card-title">Bamazon</span>
+                          <p>Bamazon is a CLI storefront app. There are three different views: Customer View, Manager View, and Supervisor View.</p>
+                      </div>
+                      <div class="cardLink">
+                          <hr class="line">
+                          <a href="" target="_blank"><p class="orange-text lighten-2">SEE THE CODE!</p></a>
+                      </div>
+                      <div class="card-reveal">
+                          <span class="card-title grey-text text-darken-4">Technologies Used:<i class="material-icons right">close</i></span>
+                          <p>JavaScript, Node.js, Command Line, MySQL</p>
+                      </div>
+                  </div>
+              </div>
+
+          </div>
+
+          <div class="portfolioRow row d-flex">  
+
+              <div class="col s12 m12 l4 d-flex">
+                  <div class="card">
+                      <div class="card-image">
+                          <img class="activator" src="">
+                          <a href="" target="_blank" class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">Deploy it!</i></a>
+                      </div>
+                      <div class="card-content">
+                          <span class="card-title">Crystals Collectors Game</span>
+                          <p>Liri is a Language Interpretation and Recognition Interface that uses the command line to take in parameters and give back data.</p>
+                      </div>
+                      <div class="cardLink">
+                          <hr class="line">
+                          <a href="" target="_blank"><p class="orange-text lighten-2">SEE THE CODE!</p></a>
+                      </div>
+                      <div class="card-reveal">
+                          <span class="card-title grey-text text-darken-4">Technologies Used:<i class="material-icons right">close</i></span>
+                          <p>JavaScript, Node.js, API requests, Command Line, Moment.js, Request, dotenv</p>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col s12 m12 l4 d-flex">
+                  <div class="card">
+                      <div class="card-image">
+                          <img class="activator" src="">
+                          <a href="" target="_blank" class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">Deploy it!</i></a>
+                      </div>
+                      <div class="card-content">
+                          <span class="card-title">Psyhcic Game</span>
+                          <p>A classic Rock Paper Scissors game. Only two people can play at once, each player can play from their own computer!</p>
+                      </div>
+                      <div class="cardLink">
+                          <hr class="line">
+                          <a href="" target="_blank"><p class="orange-text lighten-2">SEE THE CODE!</p></a>
+                      </div>
+                      <div class="card-reveal">
+                          <span class="card-title grey-text text-darken-4">Technologies Used:<i class="material-icons right">close</i></span>
+                          <p>HTML, CSS, Materialize, JavaScript jQuery, Firebase data storage</p>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col s12 m12 l4 d-flex">
+                  <div class="card">
+                      <div class="card-image">
+                          <img class="activator" src="">
+                          <a href="https://pure-harbor-83859.herokuapp.com/" target="_blank" class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">Deploy it!</i></a>
+                      </div>
+                      <div class="card-content">
+                          <span class="card-title">Newscraper</span>
+                          <p>Search for popular tourist attractions. You can search by city, state, country, or activity (rock climbing, scuba diving, etc.).</p>
+                      </div>
+                      <div class="cardLink">
+                          <hr class="line">
+                          <a href="https://github.com/chaseholladay/Newscraper" target="_blank"><p class="orange-text lighten-2">SEE THE CODE!</p></a>
+                      </div>
+                      <div class="card-reveal">
+                          <span class="card-title grey-text text-darken-4">Technologies Used:<i class="material-icons right">close</i></span>
+                          <p>Group Project, HTML, CSS, Materialize, JavaScript, jQuery, local storage, API requests, Ajax</p>
+                      </div>
+                  </div>
+              </div>
+
+          </div>
+
+          <div class="portfolioRow row d-flex lastRow"> 
+
+              <div class="col s12 m12 l4 d-flex">
+                  <div class="card">
+                      <div class="card-image">
+                          <img class="activator" src="">
+                          <a href="" target="_blank" class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">Deploy it!</i></a>
+                      </div>
+                      <div class="card-content">
+                          <span class="card-title">Trivia Game</span>
+                          <p>A timed quiz with 10 "" trivia questions.</p>
+                      </div>
+                      <div class="cardLink">
+                          <hr class="line">
+                          <a href="" target="_blank"><p class="orange-text lighten-2">SEE THE CODE!</p></a>
+                      </div>
+                      <div class="card-reveal">
+                          <span class="card-title grey-text text-darken-4">Technologies Used:<i class="material-icons right">close</i></span>
+                          <p>HTML, CSS, Bootstrap, JavaScript, jQuery, Objects, Intervals</p>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col s12 m12 l4 d-flex">
+                  <div class="card">
+                      <div class="card-image">
+                          <img class="activator" src="">
+                          <a href="" target="_blank" class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">Deploy it!</i></a>
+                      </div>
+                      <div class="card-content">
+                          <span class="card-title">Gif Generator</span>
+                          <p>A gif generator with. Click on a button to see gifs, click on a gif to animate it.</p>
+                      </div>
+                      <div class="cardLink">
+                          <hr class="line">
+                          <a href="" target="_blank"><p class="orange-text lighten-2">SEE THE CODE!</p></a>
+                      </div>
+                      <div class="card-reveal">
+                          <span class="card-title grey-text text-darken-4">Technologies Used:<i class="material-icons right">close</i></span>
+                          <p>HTML, CSS, Bootstrap, JavaScript, jQuery, API requests, Aja</p>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col s12 m12 l4 d-flex">
+                  <div class="card">
+                      <div class="card-image">
+                          <img class="activator" src="images/img for portfolio/russiantrain.png">
+                          <a href="https://chaseholladay.github.io/Russian-Train/" target="_blank" class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">Deploy it!</i></a>
+                      </div>
+                      <div class="card-content">
+                          <span class="card-title">Russian Train Scheduler</span>
+                          <p>A train schedule application that incorporates Firebase to host arrival and departure data. The app retirees and manipulates data using Moment.js. Use the form to add a train to the train list, the next arrival and minutes away will automatically calculate.</p>
+                      </div>
+                      <div class="cardLink">
+                          <hr class="line">
+                          <a href="https://github.com/chaseholladay/Russian-Train" target="_blank"><p class="orange-text lighten-2">SEE THE CODE!</p></a>
+                      </div>
+                      <div class="card-reveal">
+                          <span class="card-title grey-text text-darken-4">Technologies Used:<i class="material-icons right">close</i></span>
+                          <p>HTML, CSS, Bootstrap, JavaScript, jQuery, Firebase, Moment.js</p>
+                      </div>
+                  </div>
+              </div>
+
+          </div> 
+
+          <div class="portfolioRow row d-flex">  
+
+              <div class="col s12 m12 l4 d-flex">
+                  <div class="card">
+                      <div class="card-image">
+                          <img class="activator" src="">
+                          <a href="" target="_blank" class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">Deploy it!</i></a>
+                      </div>
+                      <div class="card-content">
+                          <span class="card-title">RPG Game</span>
+                          <p>A turn-based RPG.</p>
+                      </div>
+                      <div class="cardLink">
+                          <hr class="line">
+                          <a href="" target="_blank"><p class="orange-text lighten-2">SEE THE CODE!</p></a>
+                      </div>
+                      <div class="card-reveal">
+                          <span class="card-title grey-text text-darken-4">Technologies Used:<i class="material-icons right">close</i></span>
+                          <p>HTML, CSS, Bootstrap, JavaScript, jQuery</p>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col s12 m12 l4 d-flex">
+                  <div class="card">
+                      <div class="card-image">
+                          <img class="activator" src="">
+                          <a href="https://chaseholladay.github.io/Crystals-Collector-Game/" target="_blank" class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">Deploy it!</i></a>
+                      </div>
+                      <div class="card-content">
+                          <span class="card-title">Crystal Collector</span>
+                          <p>An interactive web browser game that dynamically updates the HTML with the jQuery library. Collect the correct crystals to match the random number given to you. The value of each crystal is hidden from you until you click on it.</p>
+                      </div>
+                      <div class="cardLink">
+                          <hr class="line">
+                          <a href="https://github.com/chaseholladay/Crystals-Collector-Game" target="_blank"><p class="orange-text lighten-2">SEE THE CODE!</p></a>
+                      </div>
+                      <div class="card-reveal">
+                          <span class="card-title grey-text text-darken-4">Technologies Used:<i class="material-icons right">close</i></span>
+                          <p>HTML5, CSS3, Bootstrap, JavaScript, jQuery</p>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col s12 m12 l4 d-flex">
+                  <div class="card">
+                      <div class="card-image">
+                          <img class="activator" src="">
+                          <a href="" target="_blank" class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">Deploy it!</i></a>
+                      </div>
+                      <div class="card-content">
+                          <span class="card-title">Constructor Guess</span>
+                          <p>A classic hangman style CLI game with.</p>
+                      </div>
+                      <div class="cardLink">
+                          <hr class="line">
+                          <a href="" target="_blank"><p class="orange-text lighten-2">SEE THE CODE!</p></a>
+                      </div>
+                      <div class="card-reveal">
+                          <span class="card-title grey-text text-darken-4">Technologies Used:<i class="material-icons right">close</i></span>
+                          <p>JavaScript, Node.js, Command Line, Inquirer, Constructors</p>
+                      </div>
+                  </div>
+              </div>
+
+          </div>  
+
+          <div class="portfolioRow row d-flex lastRow">  
+
+              <div class="col s12 m12 l4 d-flex">
+                  <div class="card">
+                      <div class="card-image">
+                          <img class="activator" src="">
+                          <a href="" target="_blank" class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">Deploy it!</i></a>
+                      </div>
+                      <div class="card-content">
+                          <span class="card-title">Word Guess Game</span>
+                          <p>A classic hangman style game.</p>
+                      </div>
+                      <div class="cardLink">
+                          <hr class="line">
+                          <a href="" target="_blank"><p class="orange-text lighten-2">SEE THE CODE!</p></a>
+                      </div>
+                      <div class="card-reveal">
+                          <span class="card-title grey-text text-darken-4">Technologies Used:<i class="material-icons right">close</i></span>
+                          <p>HTML, CSS, Bootstrap, JavaScript</p>
+                      </div>
+                  </div>
+              </div>
+              
+              <div class="col s12 m12 l4 d-flex ">
+                  <div class="card">
+                      <div class="card-image">
+                          <img class="activator" src="">
+                          <a href="" target="_blank" class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">Deploy it!</i></a>
+                      </div>
+                      <div class="card-content">
+                          <span class="card-title">Algorithms</span>
+                          <p>Just some practice!</p>
+                      </div> 
+                      <div class="cardLink">
+                          <hr class="line">
+                          <a href="" target="_blank"><p class="orange-text lighten-2">SEE THE CODE!</p></a>
+                      </div>
+                      <div class="card-reveal">
+                          <span class="card-title grey-text text-darken-4">Technologies Used:<i class="material-icons right">close</i></span>
+                          <p>JavaScript, Python</p>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col s12 m12 l4 d-flex hideDiv">
+                  <div class="card">
+                      <div class="card-image">
+                          <img class="activator" src="">
+                          <a href="" target="_blank" class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">Deploy it!</i></a>
+                      </div>
+                      <div class="card-content">
+                          <span class="card-title">Herd Of Cats</span>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                      </div> 
+                      <div class="cardLink">
+                          <hr class="line">
+                          <a href="" target="_blank"><p class="orange-text lighten-2">SEE THE CODE!</p></a>
+                      </div>
+                      <div class="card-reveal">
+                          <span class="card-title grey-text text-darken-4">Technologies Used:<i class="material-icons right">close</i></span>
+                          <p>JavaScript, Node.js, Command Line, Inquirer, Constructors</p>
+                      </div>
+                  </div>
+              </div>
+
+          </div>                   
+
+      </div>
+  </div>
+
+
+
+  
   <!-- Contact -->
-  <!-- <section class="section" id="contact">
-    <div class="container">
+  <section class="section" id="contact">
+    <!-- <div class="container"> -->
       <div class="section-heading">
         <h3 class="title is-2">Contact</h3>
-        <h4 class="subtitle is-5">Get in touch</h4>
+        <h4 class="subtitle is-5">Get in touch!</h4>
       </div>
       <br>
-
+      <form action="mailto:chaseholladay@gmail.com" method="post" enctype="text/plain" class="col s12">
       <div class="columns">
         <div class="column is-6 is-offset-3">
           <div class="box">
             <div class="field">
               <label class="label">Name</label>
               <div class="control">
-                <input class="input" type="text" placeholder="Text input">
+                <input class="input" type="text" placeholder="What your mama calls you">
               </div>
             </div>
 
             <div class="field">
               <label class="label">Email</label>
               <div class="control has-icons-left">
-                <input class="input" type="email" placeholder="Email input" value="">
+                <input class="input" type="email" placeholder="Email" value="">
                 <span class="icon is-small is-left">
                   <i class="fas fa-envelope"></i>
                 </span>
@@ -457,7 +903,7 @@
             <div class="field">
               <label class="label">Message</label>
               <div class="control">
-                <textarea class="textarea" placeholder="Textarea"></textarea>
+                <textarea class="textarea" placeholder="Your message"></textarea>
               </div>
             </div>
 
@@ -472,9 +918,9 @@
           </div>
         </div>
       </div>
-
+    </form>
     </div>
-  </section> -->
+  </section>
 
   <!-- Footer -->
   <footer class="footer">
